@@ -8,10 +8,16 @@ for(i=0; i<10; ++i){
     console.log(i);
 }
 const arr = [2,1,3,5,6,7,88];
+
 console.log(arr);
 const app = require('./app');
+const { log } = require('console');
 console.log(app);
 console.log(app.x);
 console.log(app.y);
 console.log(app.z());
 fs.writeFileSync("hello.txt", "code step by step");
+let result = arr.filter((item)=>{
+    return item ===3;
+})
+console.log(result);
