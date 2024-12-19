@@ -9,8 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "upper-case": "^2.0.2"
-  }
+  "description": ""
 }
